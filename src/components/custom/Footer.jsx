@@ -19,7 +19,7 @@ function Footer({ footerRef }) {
     {
       name: "Linkedin",
       icon: <AiFillLinkedin />,
-      link: "https://linkedin.com/in/connect-satendra",
+      link: "https://linkedin.com/in/",
     },
     {
       name: "Mail",
@@ -49,9 +49,6 @@ function Footer({ footerRef }) {
           );
         })}
       </div>
-      {/* <div className="more text-sm text-center mt-5 bg-gradient-to-b from-primary/90 to-primary/60 bg-clip-text text-transparent">
-      Honestly, I have no idea what's cooking here! If something’s broken or needs fixing, just ping me and save me from blissful ignorance!
-      </div> */}
     </div>
   );
 }
